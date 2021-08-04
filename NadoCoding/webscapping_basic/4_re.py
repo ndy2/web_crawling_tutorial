@@ -20,20 +20,21 @@ def print_match(m):
         print("Match Fail")
 
 test_list = ["care", "careless", "good care","care case", "hello world"]
-print("====match=======")
-for test in test_list :
-    m = p.match(test) 
-    print_match(m)
+# print("====match=======")
+# for test in test_list :
+#     m = p.match(test) 
+#     print_match(m)
 
 print("\n====search=======")
 for test in test_list :
     m = p.search(test) 
     print_match(m)
+    print()
 
-print("\n====findall=======")
-for test in test_list :
-    m = p.findall(test) 
-    print(m)
+# print("\n====findall=======")
+# for test in test_list :
+#     m = p.findall(test) 
+#     print(m)
 
 # 1. p = re.compile("원하는 형태")
 # 2. m = p.match("비교할 문자열") : 주어진 문자열의 처음부터 일치하는지 확인
