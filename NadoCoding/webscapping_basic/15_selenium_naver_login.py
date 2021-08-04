@@ -20,7 +20,7 @@ elem.send_keys("******")
 
 # 5. Enter
 elem.send_keys(Keys.ENTER)
-
+    
 # 6. 입력 창 청소
 browser.find_element_by_id("id").clear()
 
