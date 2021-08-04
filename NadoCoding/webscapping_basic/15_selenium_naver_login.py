@@ -12,11 +12,11 @@ elem.click()
 
 # 3. ID 입력
 elem = browser.find_element_by_id("id")
-elem.send_keys("emrdbs123")
+elem.send_keys("gildong")
 
 # 4. PW 입력
 elem = browser.find_element_by_id("pw")
-elem.send_keys("1q2w3e4r!!")
+elem.send_keys("******")
 
 # 5. Enter
 elem.send_keys(Keys.ENTER)
